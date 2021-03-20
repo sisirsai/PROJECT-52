@@ -1,0 +1,118 @@
+h1{
+    padding-right : width/2
+}
+.heading{
+         border: solid;
+        display: flex;
+        display: flex;
+        
+        justify-content: center;
+        background-color: #f80;
+        background-image: url("main2.jpg");
+        color: beige;
+        font-style: italic;
+        font-family: pple Chancery, cursive;
+
+        display: flex;
+        flex-wrap: wrap;
+
+  
+    
+        flex-direction : row;
+        align-self: center;
+        align-items: center;
+}
+.heading p{
+    text-align: center;
+}
+.links{
+    border: solid;
+    display: flex;
+    display: flex;
+    
+    justify-content: center;
+    background-color: #f80;
+    background-image: url("main2.jpg");
+    color: beige;
+    font-style: italic;
+    font-family: pple Chancery, cursive;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction : row;
+    align-self: center;
+    align-items: center;
+}
+.origami{
+    position: relative;
+}
+.origami .name{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: black;
+    font-style: italic;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.origami:hover .name{
+    opacity: 1;
+}
+.origami:hover img{
+    opacity: 0.33;
+    transform: scale(1.2);
+}
+.linksopen a:link{
+    color:red;
+}
+.linksopen a:visited{
+    color:greenyellow;
+}
+.body{
+    background: rgba(255, 255, 255, 0.425)
+}
+.text{
+    border: solid;
+   display: flex;
+   justify-content: center;
+   background-color: #f80;
+   background-image: url("main2.jpg");
+   color: beige;
+   text-align-last: center;
+   font-family: URW Chancery L, cursive;
+}
+.grid ing{
+    align-self: center;
+    border: 2px solid #000000;
+    border-radius: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction : row;
+    align-self: center;
+    align-items: center;
+}
+.grid{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction : row;
+    align-self: justify;
+    align-items: justify;
+}
+.origami {
+    align-self: center;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+
+    width: 310px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-direction : column-reverse;
+    align-self: stretch;
+    align-items: center;
+}
